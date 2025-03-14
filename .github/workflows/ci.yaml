@@ -55,7 +55,7 @@ jobs:
             -Dsonar.sources=src/
             -Dsonar.verbose=true
         
-  backend-test:
+  backend-test: 
     runs-on: ubuntu-latest
     defaults:
       run:
